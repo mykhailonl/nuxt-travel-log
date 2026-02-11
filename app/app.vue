@@ -1,7 +1,8 @@
-<template>
-  <div>
-    <NuxtRouteAnnouncer />
+<script setup lang="ts">
+</script>
 
-    <NuxtWelcome />
-  </div>
+<template>
+  <NuxtLayout>
+    <NuxtPage />
+  </NuxtLayout>
 </template>
