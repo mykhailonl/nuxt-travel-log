@@ -8,6 +8,8 @@
     </NuxtLink>
 
     <div class="navbar-end">
+      <AppThemeToggle />
+
       <AppSignInGithub />
     </div>
   </div>
