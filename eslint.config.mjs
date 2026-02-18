@@ -14,7 +14,7 @@ export default withNuxt(
       semi: false,
       quotes: 'single',
     },
-    ignores: ['.pnpm-store/**'],
+    ignores: ['.pnpm-store/**', '**/migrations/*'],
   }, {
     rules: {
       'ts/no-redeclare': 'off',
